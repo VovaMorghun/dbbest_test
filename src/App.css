@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 20px auto;
+  padding-bottom: 20px;
+}
+
+.list{
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(94, 94, 94);
+  border-bottom: none;
+  padding: 5px;
+  width: 20%;
+}
+.list:last-child{
+  border-bottom: 1px solid  rgb(94, 94, 94);
+}
+
+.list img{
+  width: 30%;
+}
+
+.active{
+  background-color: rgb(216, 216, 216);
+}
+
+button{
+  padding: 5px;
+  margin: 20px auto;  
+}
+
+
+@media (max-width: 620px) {
+  .list{
+    display: block;
+    width: 90%;
+  }
+  .list img{
+    width: 50%;
+  }
+ 
+}
+@media (max-width: 780px) {
+  .list{
+    display: block;
+    width: 40%;
+  }
+}
